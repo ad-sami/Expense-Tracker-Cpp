@@ -1,0 +1,8 @@
+build/
+*.user
+*.pro.user
+*.db
+*.o
+*.exe
+*.dll
+*.obj
