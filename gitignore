@@ -1,8 +1,11 @@
-# Build folders
+# Ignore MySQL database files (optional, if using SQLite, for example)
+*.db
+
+# Ignore build files
 build/
 cmake-build-*/
 
-# Qt Creator files (if you use Qt Creator)
+# Qt Creator or other IDE specific files
 *.pro.user
 *.pro.user.*
 *.qbs.user
@@ -13,16 +16,7 @@ moc_*.cpp
 ui_*.h
 qrc_*.cpp
 
-# SQLite database file (optional)
-expense_tracker.db
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-
-# OS files
+# OS files (for macOS and Windows)
 .DS_Store
 Thumbs.db
 
